@@ -1,9 +1,11 @@
 * {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
   padding: 0 15px;
+  font-size: 17px;
 }
 
 .navbar {
@@ -17,13 +19,67 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 14%;
 }
 
 .nabvar-section-navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 15%;
+  width: 32%;
+  padding-right: 13px;
+}
+.nabvar-section-navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+  .nabvar-section-navigation {
+    width: 25%;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nabvar-section-navigation {
+    width: 15%;
+    padding-right: 50px;
+  }
+}
+.search-section {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cdn.otstatic.com/mobileweb/mobile-web-frontend/images/black-pattern.png);
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  height: 3.5vh;
+  color: white;
+}
+
+.search-icon {
+  width: 10%;
+  color: aqua;
+  text-align: center;
+}
+
+.search-title {
+  color: white;
+}
+
+.search-input {
+  width: 90%;
+  height: 80%;
+  border: none;
+  outline: none;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+.search-section{
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    // background-image: url(https://resizer.otstatic.com/v2/photos/wide-huge/25161502.jpg);
+    background-image: url(https://cdn.otstatic.com/mobileweb/mobile-web-frontend/images/black-pattern.png);
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    width: 80%;
+    height: 3.5vh;
+    color: white;
+}
+
+.search-icon{
+    width: 10%;
+    color: aqua;
+    text-align: center;
+}
+
+.search-title{
+    color: white;
+}
+
+.search-input{
+    width: 90%;
+    height: 80%;
+    border: none;
+    outline: none;
+}

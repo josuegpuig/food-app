@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    width: 14%;
 }
 
 .nabvar-section-navigation{
@@ -17,5 +19,27 @@
     align-items: center;
     justify-content: space-between;
 
-    width: 15%;
+    // width: 15%;
+    // padding-right: 50px;
+    width: 32%;
+    padding-right: 13px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .nabvar-section-navigation{ 
+        width: 25%;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nabvar-section-navigation{
+        width: 15%;
+        padding-right: 50px;
+    }
 }
