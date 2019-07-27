@@ -1,0 +1,87 @@
+//COLORES
+$primary-color-background: #FFFFFF;
+$primary-text-color: #212121; 
+$header-color: aqua;
+$background-login: #BDBDBD;
+//TIPOGRAFÍA
+$text-background: 'Roboto', sans-serif;
+
+.body{
+    background: $primary-color-background;  
+}
+
+.nabvar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:$header-color;
+    color: $primary-text-color;
+    &-section-logo{
+        display: flex;
+        align-items: center;
+        span {
+            padding: 10px;
+            font-family: $text-background;
+        }
+    }
+    &-section-navigation{
+        padding: 20px;
+    }    
+    img{
+        padding: 6px;
+    }
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 170px 150px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: $background-login;
+    font-family: $text-background;
+    &-email{
+        display: inherit;
+        flex-direction: inherit;
+        margin-bottom: 10px;
+        align-items: center;
+      }
+    &-input{
+        width: 200px;
+        border-radius: 15px;
+      }
+    &-error{
+        p{
+            margin: 0px;
+        }
+    }
+  }
+
+  /* **************++ SECTION FOOTER ******+************* */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:$header-color;
+    color: $primary-text-color;
+    &-section-logo{
+        display: flex;
+        align-items: center;
+        span {
+            padding: 10px;
+            font-family: $text-background;
+        }
+    }
+    p{
+        padding: 20px;
+        margin: 0px;
+    }    
+    img{
+        padding: 6px;
+    }
+}
+
+
+

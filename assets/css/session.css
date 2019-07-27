@@ -1,0 +1,76 @@
+.body {
+  background: #FFFFFF;
+}
+
+.nabvar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua;
+  color: #212121;
+}
+.nabvar-section-logo {
+  display: flex;
+  align-items: center;
+}
+.nabvar-section-logo span {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.nabvar-section-navigation {
+  padding: 20px;
+}
+.nabvar img {
+  padding: 6px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 170px 150px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #BDBDBD;
+  font-family: "Roboto", sans-serif;
+}
+.login-email {
+  display: inherit;
+  flex-direction: inherit;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.login-input {
+  width: 200px;
+  border-radius: 15px;
+}
+.login-error p {
+  margin: 0px;
+}
+
+/* **************++ SECTION FOOTER ******+************* */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua;
+  color: #212121;
+}
+.footer-section-logo {
+  display: flex;
+  align-items: center;
+}
+.footer-section-logo span {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.footer p {
+  padding: 20px;
+  margin: 0px;
+}
+.footer img {
+  padding: 6px;
+}
+
+/*# sourceMappingURL=session.css.map */
