@@ -3,7 +3,7 @@
   }
   
   .container {
-    padding: 0 15px;
+    padding: 0 0 0 0;
   }
   
   .navbar {
@@ -32,7 +32,7 @@
 }
 .form-container {
   position: relative;
-  padding: 50px 40px;
+  
 }
 .form-container-in {
   position: absolute;
@@ -74,6 +74,7 @@ p.lead {
   line-height: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  width: 900px;
 }
 /* social */
 #social-media {
@@ -85,7 +86,7 @@ p.lead {
   overflow:hidden;
 }
 
-.btnn {
+.btn {
   width:100%;
   clear:both;
   white-space:nowrap;
