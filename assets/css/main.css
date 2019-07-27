@@ -1,5 +1,29 @@
-.nabvar {
+* {
+  margin: 0;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.navbar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.nabvar-section-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nabvar-section-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
 }
 
 /*# sourceMappingURL=main.css.map */
