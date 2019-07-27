@@ -3,7 +3,7 @@
   }
   
   .container {
-    padding: 0 15px;
+    padding: 0 0 0 0;
   }
   
   .navbar {
@@ -32,7 +32,7 @@
 }
 .form-container {
   position: relative;
-  padding: 50px 40px;
+  
 }
 .form-container-in {
   position: absolute;
@@ -45,12 +45,13 @@
 }
 .log-container {
    text-align: center;
+   width: 100%;
 }
 .flex-container {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  justify-content: center; 
   align-items: center;
 }
 p.lead {
@@ -64,7 +65,7 @@ p.lead {
 }
 .left-divider {
   border-left: solid 1px #78909C;
-  padding-left: 20px;
+  padding-left: 100px;
 }
 .lead-text {
   text-align: center;
@@ -74,6 +75,7 @@ p.lead {
   line-height: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  width: 900px;
 }
 /* social */
 #social-media {
@@ -85,7 +87,7 @@ p.lead {
   overflow:hidden;
 }
 
-.btnn {
+.btn {
   width:100%;
   clear:both;
   white-space:nowrap;
