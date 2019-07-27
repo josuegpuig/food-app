@@ -9,7 +9,7 @@ body {
 
 .container {
   padding: 0 15px;
-  font-size: 17px;
+  font-size: 1.15rem;
 }
 
 .navbar {
@@ -63,6 +63,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px 0;
   background-color: white;
   width: 80%;
   height: 3.5vh;
@@ -88,7 +89,7 @@ body {
 }
 
 .section-padding {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .restaurant-card {
@@ -104,6 +105,8 @@ body {
 .restaurant-card .star-review {
   font-size: 10px;
   vertical-align: middle;
+  font-weight: 400;
+  color: red;
 }
 
 .restaurant-info {
@@ -112,12 +115,80 @@ body {
 
 .restaurant-list {
   display: flex;
-  flex-wrap: wrap;
+  overflow-x: scroll;
+  padding-bottom: 30px;
+}
+
+.restaurant-list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.restaurant-list-title h5 a {
+  color: orange;
+  text-decoration: none;
+}
+
+.recommendation-card {
+  border: black solid 0.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  color: white;
+  background-color: brown;
+}
+.recommendation-card p {
+  margin: 5px 0;
+}
+.recommendation-card button {
+  margin: 5px 0;
+  color: white;
+  background-color: cyan;
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 3px rgba(51, 51, 51, 0.3);
 }
 
 .footer {
   background-color: gray;
-  height: 10vh;
+  padding-top: 15px;
+}
+.footer hr {
+  margin: 15px 0;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-links-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-links-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links-social {
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer-links-social img {
+  height: 50px;
+}
+
+.footer-copyrights {
+  padding-bottom: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */

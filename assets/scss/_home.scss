@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
 
+    padding: 8px 0;
     background-color: white;
     width: 80%;
     height: 3.5vh;
@@ -40,7 +41,7 @@
 }
 
 .section-padding{
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .restaurant-card{
@@ -57,6 +58,8 @@
     .star-review{
         font-size: 10px;
         vertical-align: middle;
+        font-weight: 400;
+        color: red;
     }
 }
 
@@ -66,5 +69,46 @@
 
 .restaurant-list{
     display: flex;
-    flex-wrap: wrap;
+    overflow-x: scroll;
+    padding-bottom: 30px;
+}
+
+.restaurant-list-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 15px;
+
+    h5{
+        a{
+            color: orange;
+            text-decoration: none;
+        }
+    }
+}
+
+.recommendation-card{
+    border: black solid 0.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    color: white;
+    background-color: brown;
+
+    p{
+        margin: 5px 0;
+    }
+
+    button{
+        margin: 5px 0;
+        color: white;
+        background-color: cyan;
+        width: 50%;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 3px rgba(51,51,51,.3);
+    }
 }
