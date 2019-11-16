@@ -243,12 +243,14 @@ body {
 
   .search-button {
     height: 100%;
-    width: 8vw;
+    width: 12vw;
     background: orange;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
-    display: block; }
+    display: flex;
+    justify-content: center;
+    cursor: pointer; }
     .search-button span {
       margin-right: .5rem; }
     .search-button:after {
